@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina-principal.css">
+    <link rel="stylesheet" href="placar.css">
+    <link rel="stylesheet" href="Cards.css">
+    <script src="funcionalidade.js" defer></script> <!-- Corrigido para usar <script> -->
+    <title>teste</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navMenu" class="diamond">
+            <div id="mainRotCorrect" class="rotCorrect"><i class="fa fa-cubes fa-4x" aria-hidden="true"></i></div>
+        </div>
+        <div id="nav1" class="nav nav1 diamond">
+            <div class="rotCorrect"><i class="fa fa-home fa-2x" aria-hidden="true"></i></div>
+        </div>
+        <div id="nav2" class="nav nav2 diamond">
+            <div class="rotCorrect"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></div>
+        </div>
+        <div id="nav3" class="nav nav3 diamond">
+            <div class="rotCorrect"><i class="fa fa-calendar fa-2x" aria-hidden="true"></i></div>
+        </div>
+        <div id="nav4" class="nav nav4 diamond">
+            <div class="rotCorrect"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i></div>
+        </div>
+        <div id="nav5" class="nav nav5 diamond">
+            <div class="rotCorrect"><i class="fa fa-cogs fa-2x" aria-hidden="true"></i></div>
+        </div>
+    </div>
+    <section class="tela1">
+        <div class="titulo">
+            <p>testando escrita</p>
+        </div>
+        <div class="placares">
+            <div class="casa">
+                <h2>CASA 1</h2>
+                <div class="texto">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem at iusto modi,
+                        consequatur accusantium quisquam magni ab consectetur impedit, numquam nobis quam molestiae
+                        laboriosam eaque esse excepturi ut. Nihil!</p>
+                </div>
+            </div>
+            <div class="visitante">
+                <h2>VISITANTE 1</h2>
+                <div class="texto">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem at iusto modi,
+                        consequatur accusantium quisquam magni ab consectetur impedit, numquam nobis quam molestiae
+                        laboriosam eaque esse excepturi ut. Nihil!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tela2">
+
+        <div class="container-card">
+            <div class="card">
+                <div class="content-card">
+                    <h2>01</h2>
+                    <h3>Card 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam repellendus itaque
+                        placeat dolore, facere, animi perspiciatis rerum adipisci voluptate distinctio esse, expedita
+                        maiores delectus fuga provident officiis nesciunt accusamus.
+                    </p>
+                    <a href="#"> Clique em Mim</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content-card">
+                    <h2>02</h2>
+                    <h3>Card 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam repellendus itaque
+                        placeat dolore, facere, animi perspiciatis rerum adipisci voluptate distinctio esse, expedita
+                        maiores delectus fuga provident officiis nesciunt accusamus.
+                    </p>
+                    <a href="#"> Clique em Mim</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content-card">
+                    <h2>03</h2>
+                    <h3>Card 3</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quisquam repellendus itaque
+                        placeat dolore, facere, animi perspiciatis rerum adipisci voluptate distinctio esse, expedita
+                        maiores delectus fuga provident officiis nesciunt accusamus.
+                    </p>
+                    <a href="#"> Clique em Mim</a>
+                </div>
+            </div>
+        </div>
+
+
+        <h2>tela 2</h2>
+    </section> <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Todos os direitos reservados.</p>
+        <p> <a href="https://www.example.com/sobre-nos">Sobre nós</a> | <a
+                href="https://www.example.com/contato">Contato</a> | <a
+                href="https://www.example.com/politica-de-privacidade">Política de Privacidade</a> </p>
+    </footer>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+                max:25,
+                speed: 400,
+                glare: true,
+                "max-glare": 1,
+            });
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+.container {
+  background: #2F2F31;
+}
+
+#navMenu {
+  top: 120px;
+  left: 140px;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  background: linear-gradient(90deg, #910EC9, #d350db, #910EC9);
+  background-size: 400% 400%;
+  animation: gradient 5s infinite;
+}
+
+#navMenu:hover, .nav:hover {
+  background: #d350db;
+}
+
+@keyframes gradient {
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+.diamond {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  transform: rotate(45deg);
+  background: #910EC9;
+  margin: -60px;
+  margin-left: -70px;
+  cursor: pointer;
+  box-shadow: 1px 4px 10px #101010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diamond:active {
+  background: #710b9e;
+  box-shadow: 0px 1px 2.5px #101010;
+  transition: 0.1s;
+}
+
+.nav {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav1 {
+  top: 85px;
+  left: 185px;
+}
+
+.nav2 {
+  top: 111px;
+  left: 211px;
+}
+
+.nav3 {
+  top: 137px;
+  left: 237px;
+}
+
+.nav4 {
+  top: 165px;
+  left: 210px;
+}
+
+.nav5 {
+  top: 192px;
+  left: 183px;
+}
+
+.rotCorrect {
+  transform: rotate(-45deg);
+  margin-left: 6px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainRotCorrect {
+    margin-left: 15px;
+  margin-top: 15px;
+  transform: rotate(-45deg);
+  max-width: 50px;
+}
+
+i {
+  color: #EEEEEE;
+  font-size: 0.5rem; /* Diminuído ainda mais */
+}

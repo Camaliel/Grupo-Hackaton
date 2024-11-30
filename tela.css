@@ -1,0 +1,16 @@
+.tela1{
+    background-color: blue;
+}
+.tela2{
+    background-color: brown;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.interface{
+    height: 100vh;
+}
