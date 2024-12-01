@@ -160,15 +160,15 @@ body {
 }
 
 .container-card .card .content-card img {
-    width: 100%;
+    width: 150px;
     height: auto;
     border-radius: 10px;
-    margin-top: -5px;
+    margin-top: -25px;
 }
 
 img {
     margin: -1px;
-    margin-top: 10px;
+    margin-top: -10px;
 }
 .tela2 .tela2titulo{
  margin-top: -10%;
