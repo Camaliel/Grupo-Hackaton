@@ -18,9 +18,17 @@ body {
     align-items: center;
     margin-top: 20px;
 }
+.casa h2{
+    margin-left: 35%;
+    margin-top: 25px;
+}
+.visitante h2{
+    margin-left: 25%;
+    margin-top: 25px;
 
+}
 .casa, .visitante {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -32,10 +40,18 @@ body {
     overflow: hidden;
     transition-duration: 1s;
     margin: 10px;
+    margin-left: centers;
 }
 
-.casa:hover, .visitante:hover {
-    transform: translateY(-55px);
+.casa:hover {
+    transform: translateY(5px);
+    background: linear-gradient(90deg, #c9530e, #d350db, #910EC9);
+    background-size: 400% 400%;
+    animation: gradient 6s infinite;
+    height: 300px;
+}
+.visitante:hover {
+    transform: translateY(-5px);
     background: linear-gradient(90deg, #c9530e, #d350db, #910EC9);
     background-size: 400% 400%;
     animation: gradient 6s infinite;
@@ -77,4 +93,12 @@ section {
     align-items: center;
     justify-content: center;
     color: white;
+}
+.linha{
+    background-color: #910EC9;
+    padding: 2px;
+}
+.linha:hover {
+    background: linear-gradient(90deg, #c9530e, #d350db, #910EC9);
+    animation: gradient 6s infinite;
 }
