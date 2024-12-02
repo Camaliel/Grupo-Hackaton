@@ -13,10 +13,11 @@ body {
 }
 
 .placares {
-    display: flex;
+    display: -webkit-box;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-left: 30%;
 }
 .casa h2{
     margin-left: 35%;

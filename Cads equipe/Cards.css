@@ -67,9 +67,9 @@ body {
 }
 .container-card .card  .especialidade1 {
     position: absolute;
-    bottom: 1%;
-    left: 5px;
-    font-size: 80%;
+    bottom: 2%;
+    left: -2px;
+    font-size: 90%;
     color: rgba(255, 255, 255, 0.05);
     pointer-events: fill;
 }
@@ -160,15 +160,15 @@ body {
 }
 
 .container-card .card .content-card img {
-    width: 100%;
+    width: 150px;
     height: auto;
     border-radius: 10px;
-    margin-top: -5px;
+    margin-top: -50px;
 }
 
 img {
     margin: -1px;
-    margin-top: 10px;
+    margin-top: -10px;
 }
 .tela2 .tela2titulo{
  margin-top: -10%;
